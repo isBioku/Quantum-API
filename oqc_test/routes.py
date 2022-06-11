@@ -22,7 +22,7 @@ class Main :
         if form.validate_on_submit():
             try:
                 input_string = form.inputString.data
-                pattern =re.compile(r"[a-zA-Z]\(\d\d\)\,\s[a-zA-Z]\(\d\d\d\)\,\s[a-zA-Z]\(\d\d\)")
+                pattern =re.compile(r"X\(\d+\)\,\sY\(\d+\)\,\sZ\(\d+\)")
                 if pattern.match(input_string):            
                     runtime = Runtime()
                     asyncio.run(runtime.execute(input_string))
