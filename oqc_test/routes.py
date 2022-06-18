@@ -1,5 +1,5 @@
 from flask import render_template, flash, request
-from oqc_test import application
+from oqc_test.application import application
 from oqc_test.input_form import InputForm
 from oqc_test.runtime import Runtime
 import re

@@ -1,9 +1,9 @@
 import time
 from flask import Flask, flash
 from oqc_test.models import OqcModel
-from oqc_test import db
+from oqc_test.application import db
 
-app = Flask(__name__)
+application = Flask(__name__)
 db.create_all()
 
 

@@ -1,5 +1,5 @@
 import string
-from oqc_test import db
+from oqc_test.application import db
 from datetime import datetime
 
 
