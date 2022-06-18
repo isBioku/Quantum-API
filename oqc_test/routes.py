@@ -1,5 +1,5 @@
 from flask import render_template, flash, request
-from oqc_test import app
+from oqc_test import application
 from oqc_test.input_form import InputForm
 from oqc_test.runtime import Runtime
 import re
@@ -9,14 +9,14 @@ from oqc_test.models import OqcModel
 
     
 class Main :
-    @app.route("/")
-    @app.route("/home")
+    @application.route("/")
+    @application.route("/home")
     def home():
         form = InputForm()
         return render_template("index.html", title='Home', form = form)
 
 
-    @app.route("/checker", methods = ["POST", "GET"])
+    @application.route("/checker", methods = ["POST", "GET"])
     def checker():
         form = InputForm()
         if form.validate_on_submit():
@@ -33,7 +33,7 @@ class Main :
         
         return render_template("index.html", title='Home', form = form)  
         
-    @app.route("/get_history", methods = ['POST', "GET"])
+    @application.route("/get_history", methods = ['POST', "GET"])
     def get_history():
         form = InputForm()
         if request.method == 'GET':
