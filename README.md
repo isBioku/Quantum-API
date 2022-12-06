@@ -11,7 +11,7 @@ Before we discuss about the installation and and setup, Let us first discuss abo
 A. You need to have python installed on your computer ...If you don't have python installed on your computer, you can use this [link](https://www.python.org/downloads/) to download python and install. 
 B. You will also need to have flask installed on your computer ... if you dont have flask installed, You can use the following command to install pip install flask 
 
-Now, lets To clone and set up this API project, you will need to follow a few steps 
+Now, let's clone and set up this API project, you will need to follow a few steps 
 
 1.Open your command line and navigate to your preferred directory where you will want to clone this project 
 2.Clone the repository on your local computer by executing the following command git clone https://github.com/isBioku/Quantum-API.git
