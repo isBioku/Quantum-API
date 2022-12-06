@@ -1,7 +1,7 @@
 # Quantum-API
 
-#INTRODUCTION
-This is Oxford Quantum circuit -> OQC’s string ingestion API documentation done by developed by BIOKU. This documentation provides a brief overview of the OQC’s string ingestion API, what it is and what it does. The overview of this API is to take input string from the user, check if the string is pattern is a valid entry, if it is a valid entry, the system therefore processes it and return feedback to the user. You can read more 
+#INTRODUCTION #
+This is Oxford Quantum circuit -> OQC’s string ingestion API. This documentation provides a brief overview of the OQC’s string ingestion API, what it is and what it does. The overview of this API is to take input string from the user, check if the string is pattern is a valid entry, if it is a valid entry, the system therefore processes it and return feedback to the user. You can read more 
 
 You will be able to get started with cloning this project, get the required dependencies to make the project work on your own local machine and also see a detailed walkthrough of what each unit of the codebase of this project is doing.
 
